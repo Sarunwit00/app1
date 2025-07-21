@@ -21,7 +21,7 @@ export function Content(){
         <div style={{textAlign: 'center', marginTop: '50px'}}>
             <h2>
                 Hello<br />
-                React &amp; React Native
+                React & React Native
             </h2>
         </div>
     )
