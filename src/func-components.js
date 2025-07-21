@@ -27,10 +27,10 @@ export function Content(){
     )
 }
 
-export function Footer(){
+export const Footer =() => {
     return (
-        <div style={{textAlign: 'center', marginTop: '40px', color: "#666"}}>
-            &copy; 2022 All rights reserved
+        <div style={{textAlign: 'center'}}>
+            &copy; {new Date().getFullYear()} All rights reserved
         </div>
     )
 }
